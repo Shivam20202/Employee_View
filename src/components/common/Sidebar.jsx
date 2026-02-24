@@ -18,8 +18,12 @@ const Sidebar = ({ isMobileDrawerOpen, setIsMobileDrawerOpen }) => {
 
   const isActivePath = (path) => {
     if (!path) return false;
-    if (path === '/') return location.pathname === '/';
-    return location.pathname === path || location.pathname.startsWith(`${path}/`);
+
+    // Treat the root path as the People Directory for initial load
+    const currentPath = location.pathname === '/' ? '/people-directory' : location.pathname;
+
+    if (path === '/') return currentPath === '/';
+    return currentPath === path || currentPath.startsWith(`${path}/`);
   };
 
   const handleNavigate = (path) => {
