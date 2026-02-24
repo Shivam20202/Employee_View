@@ -1,9 +1,9 @@
-# React + Vite + Tailwind CSS Project
+# Employee Project
 
 A modern React-based project utilizing the latest frontend technologies and tools for building responsive web applications.
 
 
-## 📸 Screenshots
+## 📸 Screenshot
 
 ![Home Page](./public/Home.png)
 
