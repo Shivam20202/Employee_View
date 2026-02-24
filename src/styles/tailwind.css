@@ -1,0 +1,147 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Global Text Colors */
+    --text-primary: #000000;
+    --text-secondary: #3d3936;
+    --text-muted: #3d393699;
+    --text-accent: #947550;
+    --text-light: #ffffff;
+
+    /* Global Background Colors */
+    --bg-primary: #3d3936;
+    --bg-secondary: #f7f7f7;
+    --bg-light: #ffffff;
+
+    /* Global Border Colors */
+    --border-primary: #e5e5e4;
+    --border-light: #ffffff19;
+
+    /* Typography Variables */
+    --font-size-sm: 14px;
+    --font-size-base: 16px;
+    --font-size-lg: 18px;
+
+    /* Font Weight Variables */
+    --font-weight-normal: 400;
+    --font-weight-medium: 500;
+
+    /* Line Height Variables */
+    --line-height-sm: 21px;
+    --line-height-base: 22px;
+    --line-height-md: 25px;
+    --line-height-lg: 28px;
+
+    /* Font Family Variables */
+    --font-family-primary: Brother;
+
+    /* Spacing Variables - Margin */
+    --margin-xs: 6px;
+    --margin-sm: 8px;
+    --margin-md: 10px;
+    --margin-lg: 12px;
+    --margin-xl: 16px;
+    --margin-2xl: 20px;
+    --margin-3xl: 24px;
+    --margin-4xl: 32px;
+    --margin-5xl: 48px;
+
+    /* Spacing Variables - Padding */
+    --padding-xs: 4px;
+    --padding-sm: 6px;
+    --padding-md: 8px;
+    --padding-lg: 10px;
+    --padding-xl: 12px;
+    --padding-2xl: 14px;
+    --padding-3xl: 16px;
+    --padding-4xl: 24px;
+    --padding-5xl: 28px;
+    --padding-6xl: 42px;
+
+    /* Spacing Variables - Gap */
+    --gap-xs: 6px;
+    --gap-sm: 8px;
+    --gap-md: 12px;
+    --gap-lg: 16px;
+    --gap-xl: 18px;
+    --gap-2xl: 20px;
+    --gap-3xl: 24px;
+    --gap-4xl: 64px;
+    --gap-5xl: 420px;
+
+    /* Border Radius Variables */
+    --radius-sm: 12px;
+    --radius-md: 14px;
+    --radius-lg: 16px;
+    --radius-xl: 20px;
+    --radius-2xl: 24px;
+    --radius-full: 66px;
+
+    /* Border Width Variables */
+    --border-width-thin: 1px;
+
+    /* Layout Variables - Width */
+    --width-xs: 16px;
+    --width-sm: 20px;
+    --width-md: 24px;
+    --width-lg: 48px;
+    --width-xl: 100px;
+    --width-2xl: 132px;
+    --width-percent-sm: 18%;
+    --width-percent-md: 20%;
+    --width-percent-lg: 32%;
+    --width-percent-xl: 40%;
+    --width-percent-2xl: 66%;
+    --width-percent-3xl: 68%;
+
+    /* Component-Specific Colors */
+    --sidebar-bg: #3d3936;
+    --sidebar-padding: 16px;
+    --sidebar-gap: 64px;
+    --sidebar-width: 20%;
+
+    --logo-width: 100px;
+
+    --menu-item-border: #ffffff19;
+    --menu-item-padding: 14px;
+    --menu-item-radius: 16px;
+    --menu-item-border-width: 1px;
+
+    --menu-text-color: #ffffff;
+    --menu-text-size: 14px;
+    --menu-text-weight: 400;
+    --menu-text-height: 21px;
+    --menu-text-margin: 10px;
+
+    --header-bg: #ffffff;
+    --header-padding: 16px;
+    --header-radius: 20px;
+
+    --search-text-color: #3d393699;
+    --search-text-size: 14px;
+    --search-text-weight: 400;
+    --search-text-height: 22px;
+    --search-border: #e5e5e4;
+    --search-padding: 12px;
+    --search-radius: 24px;
+    --search-width: 32%;
+
+    --button-bg: #3d3936;
+    --button-border: #e5e5e4;
+    --button-radius: 12px;
+    --button-padding: 12px;
+
+    --dropdown-text-color: #3d3936;
+    --dropdown-text-size: 14px;
+    --dropdown-text-weight: 400;
+    --dropdown-text-height: 22px;
+    --dropdown-border: #e5e5e4;
+    --dropdown-radius: 12px;
+    --dropdown-width: 40%;
+
+    --grid-margin: 24px;
+  }
+}
